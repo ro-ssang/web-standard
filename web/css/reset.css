@@ -38,3 +38,16 @@ a {
 a:hover {
   color: #390;
 }
+
+/* 폰트 초기화 */
+body,
+input,
+textarea,
+button,
+select,
+table {
+  color: #222;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
