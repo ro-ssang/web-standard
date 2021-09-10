@@ -1,5 +1,25 @@
 @charset "uft-8";
 
+/* 스킵 네비게이션 */
+#skip {
+  position: relative;
+}
+#skip a {
+  position: absolute;
+  left: 0;
+  top: -35px;
+  width: 140px;
+  background: #333;
+  border: 1px solid #fff;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+}
+#skip a:active,
+#skip a:focus {
+  top: 0;
+}
+
 /* 레이아웃 */
 #wrap {
   width: 100%;
