@@ -284,6 +284,7 @@
   font-size: 16px;
 }
 .cont .column .ico_desc {
+  margin-bottom: 15px;
   padding-left: 70px;
   padding-bottom: 10px;
   border-bottom: 1px solid #d0d0d0;
@@ -324,4 +325,78 @@
 }
 .cont .col6 .ico_img:hover {
   background-position: -60px -540px;
+}
+
+/* 게시판 */
+.notice {
+  position: relative;
+}
+.notice h4 {
+  padding-bottom: 3px;
+  color: #0093bd;
+  font-size: 14px;
+  font-weight: bold;
+}
+.notice ul li {
+  overflow: hidden;
+  padding-left: 8px;
+  background: url('../img/dot.gif') no-repeat 0 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.notice ul li a {
+  font-size: 12px;
+}
+.notice a.more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/icon.png) no-repeat -150px -90px;
+}
+.notice a.more:hover {
+  background-position: -167px -90px;
+}
+
+/* 게시판2 */
+.notice2 {
+  position: relative;
+  margin-top: 15px;
+}
+.notice2 h4 {
+  padding-bottom: 3px;
+  color: #0093bd;
+  font-size: 14px;
+  font-weight: bold;
+}
+.notice2 ul {
+}
+.notice2 li {
+  overflow: hidden;
+  padding-left: 8px;
+  background: url('../img/dot.gif') no-repeat 0 8px;
+}
+.notice2 li a {
+  overflow: hidden;
+  float: left;
+  width: 65%;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.notice2 li span {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+.notice2 a.more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/icon.png) no-repeat -150px -90px;
 }
