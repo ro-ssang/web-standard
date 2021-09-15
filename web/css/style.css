@@ -400,3 +400,43 @@
   height: 17px;
   background: url(../img/icon.png) no-repeat -150px -90px;
 }
+
+/* 게시판3 */
+.notice3 {
+  position: relative;
+}
+.notice3 h4 {
+  padding-bottom: 3px;
+  color: #0093bd;
+  font-size: 14px;
+  font-weight: bold;
+}
+.notice3 li {
+  position: relative;
+  padding: 8px 0 14px 60px;
+}
+.notice3 li a img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  border: 1px solid #0093bd;
+}
+.notice3 li a strong {
+  display: block;
+}
+.notice3 li a span {
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.notice3 a.more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/icon.png) no-repeat -150px -90px;
+}
