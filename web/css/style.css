@@ -591,10 +591,11 @@
 /* 게시판4 */
 .notice4 {
   position: relative;
+  border: 1px solid #ccc;
 }
 .notice4 h4 {
   padding: 8px 10px;
-  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   color: #0093bd;
   font-size: 14px;
   font-weight: 700;
@@ -603,9 +604,7 @@
   color: #cf3292;
 }
 .notice4 ul {
-  margin-top: -1px;
   padding: 10px;
-  border: 1px solid #ccc;
 }
 .notice4 li {
   overflow: hidden;
@@ -629,4 +628,64 @@
   position: absolute;
   right: 9px;
   top: 9px;
+}
+
+/* 갤러리 */
+.gallery {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #ccc;
+  height: 254px;
+}
+.gallery h4 {
+  padding: 10px 0 8px 11px;
+  border-bottom: 1px solid #ccc;
+  color: #0093bd;
+  font-size: 14px;
+  font-weight: bold;
+}
+.gallery .gallery_btn {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+}
+.gallery .gallery_btn ul {
+  overflow: hidden;
+}
+.gallery .gallery_btn li {
+  float: left;
+  margin: 1px 2px;
+}
+.gallery .gallery_btn li a {
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: url(../img/icon.png) no-repeat;
+}
+.gallery .gallery_btn li.gb_icon1 a {
+  background-position: -150px -120px;
+}
+.gallery .gallery_btn li.gb_icon2 a {
+  background-position: -150px -143px;
+}
+.gallery .gallery_btn li.gb_icon3 a {
+  background-position: -150px -166px;
+}
+.gallery .gallery_btn li.gb_icon4 a {
+  background-position: -150px -189px;
+}
+.gallery .gallery_btn li.gb_icon1 a:hover {
+  background-position: -173px -120px;
+}
+.gallery .gallery_btn li.gb_icon2 a:hover {
+  background-position: -173px -143px;
+}
+.gallery .gallery_btn li.gb_icon3 a:hover {
+  background-position: -173px -166px;
+}
+.gallery .gallery_btn li.gb_icon4 a:hover {
+  background-position: -173px -189px;
+}
+.gallery .gallery_img img {
+  width: 100%;
 }
