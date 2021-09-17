@@ -587,3 +587,46 @@
 .tab_menu ul li.active ul li a {
   color: #333;
 }
+
+/* 게시판4 */
+.notice4 {
+  position: relative;
+}
+.notice4 h4 {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  color: #0093bd;
+  font-size: 14px;
+  font-weight: 700;
+}
+.notice4 h4 em {
+  color: #cf3292;
+}
+.notice4 ul {
+  margin-top: -1px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.notice4 li {
+  overflow: hidden;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  background: url(../img/dot.gif) no-repeat 0 8px;
+}
+.notice4 li a {
+  overflow: hidden;
+  float: left;
+  width: 60%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.notice4 li span {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+.notice4 a.more {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+}
