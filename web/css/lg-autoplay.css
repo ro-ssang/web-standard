@@ -38,5 +38,5 @@
 
 .lg-single-item .lg-autoplay-button {
   opacity: 0.75;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
