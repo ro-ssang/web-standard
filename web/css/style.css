@@ -691,7 +691,8 @@
 }
 
 /* 로그인 */
-#login_form {
+#login-wrap {
+  margin-bottom: 15px;
   padding: 14px;
   background: #f2f4f5;
 }
@@ -742,4 +743,26 @@
 .login_footer li {
   display: inline;
   font-size: 12px;
+}
+
+/* 팝업 */
+.popup h4 {
+  font-size: 14px;
+  padding-bottom: 4px;
+  color: #0093bd;
+  font-weight: 700;
+}
+.popup ul {
+  overflow: hidden;
+}
+.popup li {
+  float: left;
+  margin-right: 5px;
+  width: 93px;
+}
+.popup li.last {
+  margin-right: 0;
+}
+.popup li a img {
+  width: 100%;
 }
